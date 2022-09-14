@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(186, 240, 222);
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(4, 88, 81);
+}
+
+h1 {
+  /*color:rgb(4, 88, 81);*/
+  color: floralwhite;
+  text-shadow: 0 0 3px rgb(1, 24, 22), 0 0 10px rgb(4, 88, 81), 0 0 15px rgb(6, 122, 112);
+  font-family: Greenlight, Times;
+  font-size: 300%;
+  text-align: center;
+}
+
+h3 {
+  /*color:rgb(4, 88, 81);*/
+  color: rgb(6, 122, 112);
+  font-family: Times, Courier;
+  font-size: 200%;
+  text-align: center;
+}
+
+p {
+  color: rgb(4, 88, 81);
+  font-family: Times, Courier;
+  font-size: 150%;
+}
+
+video {
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+  margin: 0 auto;
+  display: block;
+}
+
+canvas {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin: 0 auto;
+  display: block;
+  opacity: 0;
+}
+
+button {
+	opacity: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+@font-face {
+   font-family: Greenlight;
+   src: url("Greenlight Script.otf");
+}
